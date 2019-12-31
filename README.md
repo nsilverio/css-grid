@@ -1,9 +1,10 @@
 # Solutions for [css-grid](https://cssgrid.io/) by [Wes Bos](https://github.com/wesbos/)
 
 ## Live examples
+- [Shields Badges](#Shields-Badges)
 
 2.  [Starter Files and Tooling Setup](https://jsfiddle.net/6qvwur9q/)
-3.  [CSS Grid Fundamentals](https://jsfiddle.net/qxxpgg4j/)
+3.  [CSS Grid Fundamentals](#grid-fundamentals)
 4.  [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
 5.  [CSS Grid Implicit vs Explicit Tracks](https://jsfiddle.net/mon8xdgb/)
 6.  [CSS grid-auto-flow Explained](https://jsfiddle.net/Loq4uj16/)
@@ -37,3 +38,23 @@
 23. [Bootstrappy Grid with CSS Variables](https://jsfiddle.net/gLLht2hd/)
 24. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
 25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
+
+
+# CSS Grid Fundamentals
+Defines:
+- Gap between grid elements `display: grid;` 
+- Columns width `grid-template-columns: 200px 400px;` (first column to 200px, second column to 400px)
+- Rows height `grid-template-rows: 50px 100px;` (first column to 50px, second column to 100px)
+- Remaing rows default height `grid-auto-rows: 250px 500px;` 
+
+```
+.container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 200px 400px;
+        grid-template-rows: 50px 100px;
+        grid-auto-rows: 250px 500px;
+      }
+```
+
+# Shields Badges
