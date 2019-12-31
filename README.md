@@ -2,7 +2,7 @@
 
 ## Live examples
 
-- [Escape Characters](#escape-characters)
+- [CSS Grid Fundamentals](#escape-characters)
 
 2.  [Starter Files and original repo](https://github.com/wesbos/css-grid)
 3.  [CSS Grid Fundamentals](#grid-fundamentals)
