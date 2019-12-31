@@ -3,7 +3,7 @@
 ## Live examples
 
 2.  [Starter Files and original repo](https://github.com/wesbos/css-grid)
-3.  [CSS Grid Fundamentals](#css-grid-fundamentals)
+3.  [CSS Grid Fundamentals](#css-grid-fundamentals) - [see jsfiddle](https://jsfiddle.net/natalisilverio/eftmx28n/)
 4.  [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
 5.  [CSS Grid Implicit vs Explicit Tracks](https://jsfiddle.net/mon8xdgb/)
 6.  [CSS grid-auto-flow Explained](https://jsfiddle.net/Loq4uj16/)
