@@ -2,10 +2,8 @@
 
 ## Live examples
 
-- [CSS Grid Fundamentals](#css-grid-fundamentals)
-
 2.  [Starter Files and original repo](https://github.com/wesbos/css-grid)
-3.  [CSS Grid Fundamentals](#grid-fundamentals)
+3.  [CSS Grid Fundamentals](#css-grid-fundamentals)
 4.  [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
 5.  [CSS Grid Implicit vs Explicit Tracks](https://jsfiddle.net/mon8xdgb/)
 6.  [CSS grid-auto-flow Explained](https://jsfiddle.net/Loq4uj16/)
@@ -40,6 +38,8 @@
 24. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
 25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
 
+# CSS Grid Fundamentals
+
 Defines:
 
 - Gap between grid elements `display: grid;`
@@ -56,7 +56,3 @@ Defines:
         grid-auto-rows: 250px 500px;
       }
 ```
-
-# CSS Grid Fundamentals
-
-sdlfksldk
