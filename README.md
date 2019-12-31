@@ -2,7 +2,7 @@
 
 ## Live examples
 
-- [Grid Fundamentals](#grid)
+- [CSS Grid Fundamentals](#css-grid-fundamentals)
 
 2.  [Starter Files and original repo](https://github.com/wesbos/css-grid)
 3.  [CSS Grid Fundamentals](#grid-fundamentals)
@@ -40,8 +40,6 @@
 24. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
 25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
 
-# CSS Grid Fundamentals
-
 Defines:
 
 - Gap between grid elements `display: grid;`
@@ -59,6 +57,6 @@ Defines:
       }
 ```
 
-# Grid
+# CSS Grid Fundamentals
 
 sdlfksldk
