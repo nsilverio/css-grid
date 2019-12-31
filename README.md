@@ -2,7 +2,7 @@
 
 ## Live examples
 
-2.  [Starter Files and Tooling Setup](https://jsfiddle.net/6qvwur9q/)
+2.  [Starter Files and original repo](https://github.com/wesbos/css-grid)
 3.  [CSS Grid Fundamentals](#grid-fundamentals)
 4.  [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
 5.  [CSS Grid Implicit vs Explicit Tracks](https://jsfiddle.net/mon8xdgb/)
