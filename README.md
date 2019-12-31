@@ -1,7 +1,6 @@
 # Solutions for [css-grid](https://cssgrid.io/) by [Wes Bos](https://github.com/wesbos/)
 
 ## Live examples
-- [Shields Badges](#Shields-Badges)
 
 2.  [Starter Files and Tooling Setup](https://jsfiddle.net/6qvwur9q/)
 3.  [CSS Grid Fundamentals](#grid-fundamentals)
@@ -57,4 +56,4 @@ Defines:
       }
 ```
 
-# Shields Badges
+
