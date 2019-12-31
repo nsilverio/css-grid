@@ -2,6 +2,8 @@
 
 ## Live examples
 
+- [Escape Characters](#escape-characters)
+
 2.  [Starter Files and original repo](https://github.com/wesbos/css-grid)
 3.  [CSS Grid Fundamentals](#grid-fundamentals)
 4.  [CSS Grid Dev Tools](https://jsfiddle.net/b55x8vh2/)
@@ -38,13 +40,14 @@
 24. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
 25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
 
-
 # CSS Grid Fundamentals
+
 Defines:
-- Gap between grid elements `display: grid;` 
+
+- Gap between grid elements `display: grid;`
 - Columns width `grid-template-columns: 200px 400px;` (first column to 200px, second column to 400px)
 - Rows height `grid-template-rows: 50px 100px;` (first column to 50px, second column to 100px)
-- Remaing rows default height `grid-auto-rows: 250px 500px;` 
+- Remaing rows default height `grid-auto-rows: 250px 500px;`
 
 ```
 .container {
@@ -56,4 +59,4 @@ Defines:
       }
 ```
 
-
+# Escape Characters
