@@ -2,7 +2,7 @@
 
 ## Live examples
 
-3.  [CSS Grid Fundamentals](#css-grid-fundamentals) - [[jsfiddle]](https://
+3.  [CSS Grid Fundamentals](#css-grid-fundamentals)
 4.  [Grid Auto-flow](#grid-auto-flow)
 5.  [Sizing tracks in CSS Grid](https://jsfiddle.net/q8h3r8yb/)
 6.  [CSS Grid repeat function](https://jsfiddle.net/8f8xyx86/)
