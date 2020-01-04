@@ -87,8 +87,6 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 
 - `grid-template-columns: 200px 2fr 1fr 2fr;` will divide the remaning space of `<div= class="container">` after adding a 200px column into 3 other columns, the first one will use 2 fractional units, the second 1 fractional unit and the last 2 fractional units.
 
-![fractional-units](https://github.com/nsilverio/css-grid/blob/master/assets/images/fractional-unit.png)
-
 ```
 .container {
   display: grid;
@@ -97,6 +95,8 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
   grid-template-columns: 200px 2fr 1fr 2fr;
 }
 ```
+
+![fractional-units](https://github.com/nsilverio/css-grid/blob/master/assets/images/fractional-unit.png)
 
 - For `grid-template-rows` the default height of an element is just however hight the element is and default width of an element is as wide as the actual view port.
 
@@ -114,15 +114,15 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 - `auto` keyword automatcly sizes the column / row to the the wider / highest grid element.
 
 ```
-<style>
-      .container {
-        display: grid;
-        height: 400px;
-        grid-gap: 20px;
-        border: 10px solid var(--yellow);
-        grid-template-columns: 200px 1fr 1fr auto;
-      }
-    </style>
+
+    .container {
+      display: grid;
+      height: 400px;
+      grid-gap: 20px;
+      border: 10px solid var(--yellow);
+      grid-template-columns: 200px 1fr 1fr auto;
+    }
+
 ```
 
 ![fractional-units2](https://github.com/nsilverio/css-grid/blob/master/assets/images/auto-keyword.png)
