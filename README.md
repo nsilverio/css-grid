@@ -4,7 +4,7 @@
 
 3.  [CSS Grid Fundamentals](#css-grid-fundamentals)
 4.  [Grid Auto-flow](#grid-auto-flow)
-5.  [Sizing tracks in CSS Grid](https://jsfiddle.net/q8h3r8yb/)
+5.  [Sizing tracks in CSS Grid](#Sizing-Tracks-in-CSS-Grid)
 6.  [CSS Grid repeat function](https://jsfiddle.net/8f8xyx86/)
 7.  [Sizing Grid Items](https://jsfiddle.net/wqs6tcuk/)
 8.  [Placing Grid Items](https://jsfiddle.net/hs5xhvpp/)
@@ -70,6 +70,7 @@ Determines if new elemens will be added as rows (default behaviour) or as columu
       <div class="item">auto-flow</div>
 </div>
 
+<style>
 .container {
         display: grid;
         grid-gap: 20px;
@@ -77,7 +78,10 @@ Determines if new elemens will be added as rows (default behaviour) or as columu
         grid-template-rows: 50px 100px;
         grid-auto-rows: 250px 500px;
       }
+</style>
 ```
+
+# Sizing Tracks in CSS Grid
 
 Fractional unit (fr) represents the amount of space left after all the elemens are laid out, including its margins, paddings and borders.
 
@@ -95,3 +99,30 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 ```
 
 - For `grid-template-rows` the default height of an element is just however hight the element is and default width of an element is as wide as the actual view port.
+
+```
+.container {
+  display: grid;
+  grid-gap: 20px;
+  border: 10px solid var(--yellow);
+  grid-template-columns: 200px 2fr 1fr 2fr;
+}
+```
+
+![fractional-units2](https://github.com/nsilverio/css-grid/blob/master/assets/images/fractional-unit2.png)
+
+- `auto` keyword automatcly sizes the column / row to the the wider / highest grid element.
+
+```
+<style>
+      .container {
+        display: grid;
+        height: 400px;
+        grid-gap: 20px;
+        border: 10px solid var(--yellow);
+        grid-template-columns: 200px 1fr 1fr auto;
+      }
+    </style>
+```
+
+![fractional-units2](https://github.com/nsilverio/css-grid/blob/master/assets/images/auto-keyword.png)
