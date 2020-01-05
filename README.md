@@ -127,7 +127,7 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 
 ![fractional-units2](https://github.com/nsilverio/css-grid/blob/master/assets/images/auto-keyword.png)
 
-- ``repeat` function cuts down the amout of line codes
+- `repeat` function cuts down the amout of line codes
 
 ```
 .container {
