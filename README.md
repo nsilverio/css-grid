@@ -5,22 +5,21 @@
 3.  [CSS Grid Fundamentals](#css-grid-fundamentals)
 4.  [Grid Auto-flow](#grid-auto-flow)
 5.  [Sizing tracks in CSS Grid](#Sizing-Tracks-in-CSS-Grid)
-6.  [CSS Grid repeat function](CSS-Grid-repeat-function)
-7.  [Sizing Grid Items](Sizing-Grid-Items)
-8.  [Placing Grid Items](https://jsfiddle.net/hs5xhvpp/)
-9.  [Spanning and Placing Cardio](https://jsfiddle.net/2z7z6o9k/)
-10. [auto-fit and auto-fill](https://jsfiddle.net/d1pLngzx/)
-11. [Using minmax() for Responsive Grids](https://jsfiddle.net/xthszm2j/)
-12. Grid Template Areas:
+6.  [CSS Grid repeat function](#CSS-Grid-repeat-function)
+7.  [Sizing Grid Items](#Sizing-Grid-Items)
+8.  [Placing Grid Items](#Placing-Grid-Items-)
+9.  [auto-fit and auto-fill](https://jsfiddle.net/d1pLngzx/)
+10. [Using minmax() for Responsive Grids](https://jsfiddle.net/xthszm2j/)
+11. Grid Template Areas:
     - [Area Line Names](https://jsfiddle.net/tkyxomht/)
     - [Areas](https://jsfiddle.net/p0sn7L7v/)
-13. [Naming Lines in CSS Grid](https://jsfiddle.net/ygpmn0xh/)
-14. [grid-auto-flow dense Block Fitting](https://jsfiddle.net/sxj83p70/)
-15. [CSS Grid Alignment + Centering](https://jsfiddle.net/eyL9a2gv/)
-16. [Re-ordering Grid Items](https://jsfiddle.net/uscf9mk0/)
-17. [Nesting Grid with Album Layouts](https://jsfiddle.net/yn7jak0y/)
-18. [CSS Grid Image Gallery](https://jsfiddle.net/cbjzped2/)
-19. Flexbox vs CSS Grid:
+12. [Naming Lines in CSS Grid](https://jsfiddle.net/ygpmn0xh/)
+13. [grid-auto-flow dense Block Fitting](https://jsfiddle.net/sxj83p70/)
+14. [CSS Grid Alignment + Centering](https://jsfiddle.net/eyL9a2gv/)
+15. [Re-ordering Grid Items](https://jsfiddle.net/uscf9mk0/)
+16. [Nesting Grid with Album Layouts](https://jsfiddle.net/yn7jak0y/)
+17. [CSS Grid Image Gallery](https://jsfiddle.net/cbjzped2/)
+18. Flexbox vs CSS Grid:
     - [Axis Flipping](https://jsfiddle.net/pt8hym9s/)
     - [Controls on Right](https://jsfiddle.net/4o7gavuj/)
     - [Flex on Item](https://jsfiddle.net/1u264ftd/)
@@ -30,10 +29,10 @@
     - [Unknown Content Size](https://jsfiddle.net/4ze02bkj/)
     - [Unknown Number of Items](https://jsfiddle.net/Lg7r3jmy/)
     - [Variable Widths on Each Row](https://jsfiddle.net/qymhootd/)
-20. [Recreating Codepen](https://jsfiddle.net/br6n54qt/)
-21. [Bootstrappy Grid with CSS Variables](https://jsfiddle.net/gLLht2hd/)
-22. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
-23. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
+19. [Recreating Codepen](https://jsfiddle.net/br6n54qt/)
+20. [Bootstrappy Grid with CSS Variables](https://jsfiddle.net/gLLht2hd/)
+21. [Responsive Website](https://jsfiddle.net/bh16ofp8/)
+22. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)
 
 # CSS Grid Fundamentals
 
@@ -147,3 +146,14 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 - `grid-column: span 2` and `grid-row: span 2` changes the natural flow of the column/row.
 
 ![fractional-units2](https://github.com/nsilverio/css-grid/blob/master/assets/images/grid-span.png)
+
+# Placing Grid Items
+
+- Grid items position and size can be changed either using the abreviation `grid-column` / `grid-row` setting where the item should start, end and its size
+
+```
+/* Make item 20 start at row 4 and go for 3 */
+  .item20 {
+    grid-row: 4 / span 3;
+  }
+```
