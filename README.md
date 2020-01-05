@@ -7,7 +7,7 @@
 5.  [Sizing tracks in CSS Grid](#Sizing-Tracks-in-CSS-Grid)
 6.  [CSS Grid repeat function](#css-grid-repeat-function)
 7.  [Sizing Grid Items](#sizing-grid-items)
-8.  [Placing Grid Items](#Placing-Grid-Items-)
+8.  [Placing Grid Items](#Placing-Grid-items)
 9.  [auto-fit and auto-fill](https://jsfiddle.net/d1pLngzx/)
 10. [Using minmax() for Responsive Grids](https://jsfiddle.net/xthszm2j/)
 11. Grid Template Areas:
@@ -151,8 +151,10 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 
 - Grid items position and size can be changed either using the abreviation `grid-column` / `grid-row` setting where the item should start, end and its size
 
+See [11 - Spanning and Placing Cardio](https://github.com/nsilverio/css-grid/tree/master/11%20-%20Spanning%20and%20Placing%20Cardio) for more examples
+
 ```
-/* Make item 20 start at row 4 and go for 3 */
+  /* Make item 20 start at row 4 and go for 3 */
   .item20 {
     grid-row: 4 / span 3;
   }
