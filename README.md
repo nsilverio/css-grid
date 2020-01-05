@@ -5,7 +5,7 @@
 3.  [CSS Grid Fundamentals](#css-grid-fundamentals)
 4.  [Grid Auto-flow](#grid-auto-flow)
 5.  [Sizing tracks in CSS Grid](#Sizing-Tracks-in-CSS-Grid)
-6.  [CSS Grid repeat function](https://jsfiddle.net/8f8xyx86/)
+6.  [CSS Grid repeat function](CSS-Grid-repeat-function)
 7.  [Sizing Grid Items](https://jsfiddle.net/wqs6tcuk/)
 8.  [Placing Grid Items](https://jsfiddle.net/hs5xhvpp/)
 9.  [Spanning and Placing Cardio](https://jsfiddle.net/2z7z6o9k/)
@@ -126,6 +126,8 @@ Fractional unit (fr) represents the amount of space left after all the elemens a
 ```
 
 ![fractional-units2](https://github.com/nsilverio/css-grid/blob/master/assets/images/auto-keyword.png)
+
+# CSS Grid repeat function
 
 - `repeat` function cuts down the amout of line codes
 
